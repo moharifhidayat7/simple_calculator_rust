@@ -1,7 +1,7 @@
 use std::io::stdin;
 
 fn main() {
-    println!("Please enter the math operation (e.g. 1+2, 2*3): ");
+    println!("Please enter the math operation (e.g. 1 + 2, 2 * 3): ");
     let mut input = String::new();
     stdin().read_line(&mut input).unwrap();
     let input = input.trim();
